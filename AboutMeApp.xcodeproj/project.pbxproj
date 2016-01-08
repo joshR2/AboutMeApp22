@@ -97,10 +97,8 @@
 		11DA51E31C4005D700FA18CC /* AboutMeApp */ = {
 			isa = PBXGroup;
 			children = (
-				11DA51E41C4005D700FA18CC /* AppDelegate.swift */,
-				11DA51E61C4005D700FA18CC /* ViewController.swift */,
-				11DA51E81C4005D700FA18CC /* Main.storyboard */,
-				11DA51EB1C4005D700FA18CC /* Assets.xcassets */,
+				11DA52131C4007A500FA18CC /* View */,
+				11DA52121C40078D00FA18CC /* Controller */,
 				11DA51ED1C4005D700FA18CC /* LaunchScreen.storyboard */,
 				11DA51F01C4005D700FA18CC /* Info.plist */,
 			);
@@ -123,6 +121,24 @@
 				11DA52061C4005D700FA18CC /* Info.plist */,
 			);
 			path = AboutMeAppUITests;
+			sourceTree = "<group>";
+		};
+		11DA52121C40078D00FA18CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11DA51E41C4005D700FA18CC /* AppDelegate.swift */,
+				11DA51E61C4005D700FA18CC /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		11DA52131C4007A500FA18CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11DA51EB1C4005D700FA18CC /* Assets.xcassets */,
+				11DA51E81C4005D700FA18CC /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +500,7 @@
 				11DA520B1C4005D700FA18CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11DA520C1C4005D700FA18CC /* Build configuration list for PBXNativeTarget "AboutMeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				11DA520E1C4005D700FA18CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11DA520F1C4005D700FA18CC /* Build configuration list for PBXNativeTarget "AboutMeAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				11DA52111C4005D700FA18CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
