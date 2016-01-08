@@ -14,6 +14,9 @@
 		11DA51EF1C4005D700FA18CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA51ED1C4005D700FA18CC /* LaunchScreen.storyboard */; };
 		11DA51FA1C4005D700FA18CC /* AboutMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA51F91C4005D700FA18CC /* AboutMeAppTests.swift */; };
 		11DA52051C4005D700FA18CC /* AboutMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA52041C4005D700FA18CC /* AboutMeAppUITests.swift */; };
+		11DA52151C401FBB00FA18CC /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA52141C401FBB00FA18CC /* FoodViewController.swift */; };
+		11DA52171C401FCB00FA18CC /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA52161C401FCB00FA18CC /* GamesViewController.swift */; };
+		11DA521B1C401FF900FA18CC /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA521A1C401FF900FA18CC /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		11DA52001C4005D700FA18CC /* AboutMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DA52041C4005D700FA18CC /* AboutMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeAppUITests.swift; sourceTree = "<group>"; };
 		11DA52061C4005D700FA18CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DA52141C401FBB00FA18CC /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		11DA52161C401FCB00FA18CC /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		11DA521A1C401FF900FA18CC /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 			children = (
 				11DA51E41C4005D700FA18CC /* AppDelegate.swift */,
 				11DA51E61C4005D700FA18CC /* ViewController.swift */,
+				11DA52141C401FBB00FA18CC /* FoodViewController.swift */,
+				11DA52161C401FCB00FA18CC /* GamesViewController.swift */,
+				11DA521A1C401FF900FA18CC /* MusicViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -272,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA52171C401FCB00FA18CC /* GamesViewController.swift in Sources */,
+				11DA521B1C401FF900FA18CC /* MusicViewController.swift in Sources */,
 				11DA51E71C4005D700FA18CC /* ViewController.swift in Sources */,
+				11DA52151C401FBB00FA18CC /* FoodViewController.swift in Sources */,
 				11DA51E51C4005D700FA18CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
