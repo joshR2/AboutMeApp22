@@ -55,15 +55,20 @@
                         <gestureRecognizers/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="9N4-Eq-OxD" kind="presentation" identifier="toFood" id="ogQ-5E-Gc6"/>
+                        <segue destination="vvr-Hf-zkq" kind="presentation" identifier="toMusic" id="DMQ-b7-T72"/>
+                        <segue destination="zqT-G4-4yB" kind="presentation" identifier="toGames" id="ITW-q8-jJv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="415"/>
+            <point key="canvasLocation" x="799" y="413"/>
         </scene>
         <!--Games-->
         <scene sceneID="Bbh-DY-Cuz">
             <objects>
-                <viewController title="Games" id="zqT-G4-4yB" sceneMemberID="viewController">
+                <viewController title="Games" id="zqT-G4-4yB" customClass="GamesViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hJd-kd-hW6"/>
                         <viewControllerLayoutGuide type="bottom" id="SDd-08-ZQS"/>
@@ -96,15 +101,18 @@
                         <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="fromGamesToHome" id="cBf-9w-j4v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bWM-5Q-nuw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="1213"/>
+            <point key="canvasLocation" x="573" y="1533"/>
         </scene>
         <!--Music-->
         <scene sceneID="APG-zW-6DG">
             <objects>
-                <viewController title="Music" id="vvr-Hf-zkq" sceneMemberID="viewController">
+                <viewController title="Music" id="vvr-Hf-zkq" customClass="MusicViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nxc-jv-zgg"/>
                         <viewControllerLayoutGuide type="bottom" id="vxJ-wz-wRS"/>
@@ -136,15 +144,18 @@
                         <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="fromMusicToHome" id="Rmb-OJ-ZxD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f8G-fF-Xw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="1213"/>
+            <point key="canvasLocation" x="1401" y="1611"/>
         </scene>
         <!--Food-->
         <scene sceneID="fCq-h5-djn">
             <objects>
-                <viewController title="Food" id="9N4-Eq-OxD" sceneMemberID="viewController">
+                <viewController title="Food" id="9N4-Eq-OxD" customClass="FoodViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p3R-m5-9oh"/>
                         <viewControllerLayoutGuide type="bottom" id="Yxv-C3-hBW"/>
@@ -176,10 +187,13 @@
                         <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="fromFoodToHome" id="xGr-mw-oyg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfh-t9-AE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="415"/>
+            <point key="canvasLocation" x="1627" y="429"/>
         </scene>
     </scenes>
     <resources>
@@ -188,4 +202,7 @@
         <image name="Pancakes2" width="460" height="287"/>
         <image name="Steam" width="590" height="354"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Rmb-OJ-ZxD"/>
+    </inferredMetricsTieBreakers>
 </document>
