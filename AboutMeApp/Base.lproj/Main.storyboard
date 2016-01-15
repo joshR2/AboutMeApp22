@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="799" y="413"/>
+            <point key="canvasLocation" x="503" y="515"/>
         </scene>
         <!--Games-->
         <scene sceneID="Bbh-DY-Cuz">
@@ -167,6 +167,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrK-hJ-mXI">
                                 <rect key="frame" x="184" y="686" width="46" height="30"/>
                                 <state key="normal" title="Return"/>
+                                <connections>
+                                    <action selector="changeToHome:" destination="9N4-Eq-OxD" eventType="touchUpInside" id="uca-WS-pmQ"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pancakes2" translatesAutoresizingMaskIntoConstraints="NO" id="efc-Mm-1md">
                                 <rect key="frame" x="59" y="53" width="313" height="254"/>
@@ -193,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfh-t9-AE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1627" y="429"/>
+            <point key="canvasLocation" x="1381" y="553"/>
         </scene>
     </scenes>
     <resources>
@@ -203,6 +206,6 @@
         <image name="Steam" width="590" height="354"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Rmb-OJ-ZxD"/>
+        <segue reference="xGr-mw-oyg"/>
     </inferredMetricsTieBreakers>
 </document>

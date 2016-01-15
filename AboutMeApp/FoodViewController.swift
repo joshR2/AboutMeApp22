@@ -11,6 +11,11 @@ import UIKit
 
 class FoodViewController : UIViewController
 {
+    @IBAction func changeToHome(sender: UIButton)
+    {
+        performSegueWithIdentifier("fromFoodToHome", sender: sender)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
